@@ -11,8 +11,9 @@ During the course of this project, I was able to:
 
 # Project running 
 ## Setting a python 3.7 virtual environment and activating it
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv ~/.devops
+
+source ~/.devops/bin/activate
 
 ## Installing the necessary dependencies
 make install
