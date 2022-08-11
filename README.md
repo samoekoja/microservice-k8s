@@ -1,6 +1,6 @@
 [![samoekoja](https://circleci.com/gh/samoekoja/microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/samoekoja/microservice-kubernetes)
 
-## Project Summary
+# Project Summary
 During the course of this project, I was able to: 
 * Operationalise a ML Microservice API
 * Containerize it with Docker
@@ -9,21 +9,23 @@ During the course of this project, I was able to:
 * Deploy it with Kubernetes
 * Achieve CircleCI Integration
 
-##Project running 
-# Setting a python 3.7 virtual environment and activating it
+# Project running 
+## Setting a python 3.7 virtual environment and activating it
 python3 -m venv .venv
 source .venv/bin/activate
 
-# Installing the necessary dependencies
+## Installing the necessary dependencies
 make install
 
-# Running the main application
+## Running the main application
 python app.py
 
-#Run in Docker: ./run_docker.sh
-#Run in Kubernetes: ./run_kubernetes.sh
+## Run in Docker: 
+./run_docker.sh
+## Run in Kubernetes: 
+./run_kubernetes.sh
 
-##Files Summary
+# Files Summary
 
 * .circleci/config.yml: CircleCI configuration file.
 * app.py: The python application
@@ -37,7 +39,7 @@ python app.py
 * output_txt_files/docker_out.txt: Console output from make_prediction.sh for run_docker.sh
 * output_txt_files/kubernetes_out.txt Console output from  make_prediction.sh for run_kubernetes.sh
 
-##Links
+# Links
 
 [Output Text Files](https://github.com/samoekoja/microservice-kubernetes/output_text_files/)
 
