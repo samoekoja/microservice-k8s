@@ -10,7 +10,6 @@ During the course of this project, I was able to:
 * Achieve CircleCI Integration
 
 ##Project running 
-
 # Setting a python 3.7 virtual environment and activating it
 python3 -m venv .venv
 source .venv/bin/activate
@@ -39,5 +38,7 @@ python app.py
 * output_txt_files/kubernetes_out.txt Console output from  make_prediction.sh for run_kubernetes.sh
 
 ##Links
+
 [Output Text Files](https://github.com/samoekoja/microservice-kubernetes/output_text_files/)
+
 [CircleCI](https://app.circleci.com/pipelines/github/samoekoja/microservice-kubernetes)
