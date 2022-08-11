@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![samoekoja](https://circleci.com/gh//samoekoja/microservice-kubernetes.svg?style=svg)](https://app.circleci.com/pipelines/github/samoekoja/microservice-kubernetes)
 
 ## Project Overview
 
